@@ -3,10 +3,11 @@
 // Main Sass file used to import partials
 // **************************************
 
+// Import Normalize and Typography partials
+@import 'base';
 
 // NOTE: import utilities and base partials here:
-
-
+@import 'utilities';
 
 // import components partials
-@import 'components';
+@import 'component';
