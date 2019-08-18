@@ -1,0 +1,9 @@
+// Media queries
+
+@mixin mq($break) {
+    @if $break == "desktop" {
+        @media (min-width: $break-desktop) {
+            @content;
+        }
+    }
+}

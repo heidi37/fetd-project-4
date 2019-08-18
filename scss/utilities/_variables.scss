@@ -7,8 +7,12 @@
 $white: #fff;
 $color-text: #777;
 $color-primary: #58e1c1;
-$color-secondary: #51ddfc;
 $color-img-frame: #ccc;
+$color-secondary: #51ddfc; // Also default button color
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-success: #63cc82;
+$color-warning: #fd7856;
 
 // Fonts
 
@@ -16,12 +20,11 @@ $color-img-frame: #ccc;
 $break-desktop: 768px; 
 
 
-// // Theme colors
-// $themes: (
-//   'ent': #79ccf5,
-//  'arch': #fd6fa6, 
-//   'edu': #23bbae,
-//   'sim': #2377bb,
-//   'soc': #ada3f0,
-// 'games': #3cb144,
+// // Button Background colors
+// $background-colors: (
+//   'default': $color-secondary,
+//     'error': #e4757a, 
+//      'info': #927bc1,
+//    'success: #63cc82
+//   'warning': #fd7856,
 // );

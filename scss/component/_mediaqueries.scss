@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $break-desktop) {
+@include mq(desktop) {
 
     .container {
       max-width: 1400px;
