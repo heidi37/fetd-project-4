@@ -497,6 +497,7 @@ a {
 }
 .default:hover {
   background-color: #9cecfd;
+  transition: ease-in 0.4s;
 }
 
 .error {
@@ -504,6 +505,7 @@ a {
 }
 .error:hover {
   background-color: #f1b5b8;
+  transition: ease-in 0.4s;
 }
 
 .info {
@@ -511,6 +513,7 @@ a {
 }
 .info:hover {
   background-color: #bdafd9;
+  transition: ease-in 0.4s;
 }
 
 .success {
@@ -518,6 +521,7 @@ a {
 }
 .success:hover {
   background-color: #9ddfb0;
+  transition: ease-in 0.4s;
 }
 
 .warning {
@@ -525,6 +529,7 @@ a {
 }
 .warning:hover {
   background-color: #feb4a2;
+  transition: ease-in 0.4s;
 }
 
 /* ============================================= */
