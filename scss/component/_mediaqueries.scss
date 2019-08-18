@@ -20,7 +20,7 @@
       flex-direction: column;
   
       // NOTE: replace with media query mixin if aiming for exceeds
-      @media (min-width: 768px) {
+      @media (min-width: $break-desktop) {
         flex-direction: row;
       }
     }
@@ -43,7 +43,7 @@
           flex-basis: 100%;
   
           // NOTE: replace with media query mixin if aiming for exceeds
-          @media (min-width: 768px) {
+          @media (min-width: $break-desktop) {
   
             // base stlyes applied to all grid columns
             margin-top: 0;
@@ -62,7 +62,7 @@
     & + & {
   
       // NOTE: replace with media query mixin if aiming for exceeds
-      @media (min-width: 768px) {
+      @media (min-width: $break-desktop) {
   
         // add grid gutter
         margin-left: 10px;
