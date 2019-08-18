@@ -2,8 +2,8 @@
 // Main Sass file used to import partials
 // **************************************
 
-@import 'utilities';
+@import 'utilities/index';
 
-@import 'base';
+@import 'base/index';
 
-@import 'component';
+@import 'component/index';
